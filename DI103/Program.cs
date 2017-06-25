@@ -1,14 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DI103
 {
-    public interface IFileSystemAdapter { }
+    public interface IFileSystemAdapter
+    {
+    }
 
-    public class FileSystemAdapter : IFileSystemAdapter { }
+    public class FileSystemAdapter : IFileSystemAdapter
+    {
+    }
 
     public interface IBuildDirectoryStructureService
     {
@@ -40,7 +40,9 @@ namespace DI103
             ioc.Register<IBuildDirectoryStructureService, BuildDirectoryStructureService>();
 
             IBuildDirectoryStructureService service = ioc.Resolve<IBuildDirectoryStructureService>();
+
             Console.WriteLine(service.GetFileSystemAdapter());
+
             Console.ReadKey();
         }
     }
