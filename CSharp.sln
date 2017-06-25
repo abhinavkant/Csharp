@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI103", "DI103\DI103.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI104", "DI104\DI104.csproj", "{74B2635B-22BF-406A-9EE0-EAF854A87A69}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{37FEF79F-C4FA-407B-9367-9ED302C0CF56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6ABF5B33-4ACD-4DA2-840D-DDC149A1005D} = {37FEF79F-C4FA-407B-9367-9ED302C0CF56}
+		{8ACC83BB-4412-4A78-978F-F0FD1A2A0FFB} = {37FEF79F-C4FA-407B-9367-9ED302C0CF56}
+		{3519F3FC-7B7A-4F65-BD7B-96BE94DD25ED} = {37FEF79F-C4FA-407B-9367-9ED302C0CF56}
+		{74B2635B-22BF-406A-9EE0-EAF854A87A69} = {37FEF79F-C4FA-407B-9367-9ED302C0CF56}
 	EndGlobalSection
 EndGlobal
